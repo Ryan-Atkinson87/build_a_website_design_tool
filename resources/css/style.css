@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+main {
+    width: 100%;
+}
+
+header h1 {
+    margin: 0 auto 0;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    
+}
+
+.container {
+    border: 2px solid gray;
+    margin: 0 auto 0;
+    margin-bottom: 20px;
+    max-width: 1300px;
+}
+
+.container h2 {
+    margin: 0;
+    padding: 20px 5px;
+    position: relative;
+    left: 10px;
+}
+.colour-panel {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    width: 180px;
+    height: 120px;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+.colour-label {
+    margin: 0;
+    padding: 20px 0 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.colour-tag {
+    margin: 0;
+    padding: 20px 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.green {
+    background-color: green;
+}
+
+.green-yellow {
+    background-color: greenyellow;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.font-panel {
+    display: inline-block;
+    color: black;
+    width: 400px;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    height: 250px;
+    margin: 10px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+.font-panel h2 {
+    text-decoration: underline;
+    left: 0;
+}
+
+.font-panel p {
+    padding: 5px;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.genos {
+    font-family: 'Genos', sans-serif;
+    font-size: 20px;
+}
+
+.genos h2 {
+    font-size: 22.5px;
+}
+
+.genos p{
+    padding: 0;
+    margin: 23px;
+}
+
+.chakra-petch {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-styles h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Genos', sans-serif;
+    margin-left: 10px;
+}
+
+.font-styles h2 {
+    Font-weight: 500;
+    Font-size: 20px;
+    Font-family: 'Montserrat', sans-serif;
+    padding-left: 0;
+}
+
+.font-styles p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 10px;
+}
